@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_48acecb8e57f4f4aade0231aae15f131 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_48acecb8e57f4f4aade0231aae15f131" ></div>
+        
+</body>
+<script>    
+    
+            var map_48acecb8e57f4f4aade0231aae15f131 = L.map(
+                "map_48acecb8e57f4f4aade0231aae15f131",
+                {
+                    center: [25.03746, 121.564558],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_39871adbe87a472bad425ea91b5062d1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_48acecb8e57f4f4aade0231aae15f131);
+        
+    
+            var marker_58bce4df7b6f448e818e938b80fc14bc = L.marker(
+                [25.04110701966726, 121.56147430965311],
+                {}
+            ).addTo(map_48acecb8e57f4f4aade0231aae15f131);
+        
+    
+            var icon_e165c08396a544aea5d9019f71d0f526 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_58bce4df7b6f448e818e938b80fc14bc.setIcon(icon_e165c08396a544aea5d9019f71d0f526);
+        
+    
+        var popup_9fa6e265086d4086baefb3aeb1f9f076 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6caaf4a06fd241c888880bebc734e6c0 = $(`<div id="html_6caaf4a06fd241c888880bebc734e6c0" style="width: 100.0%; height: 100.0%;">集會交管</div>`)[0];
+            popup_9fa6e265086d4086baefb3aeb1f9f076.setContent(html_6caaf4a06fd241c888880bebc734e6c0);
+        
+
+        marker_58bce4df7b6f448e818e938b80fc14bc.bindPopup(popup_9fa6e265086d4086baefb3aeb1f9f076)
+        ;
+
+        
+    
+    
+            var marker_320aea25093e4e1c90ff741c0d9288c6 = L.marker(
+                [25.04110701966726, 121.56147430965311],
+                {}
+            ).addTo(map_48acecb8e57f4f4aade0231aae15f131);
+        
+    
+            var icon_1b287c4707a245008ec6150f2faf9b08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_320aea25093e4e1c90ff741c0d9288c6.setIcon(icon_1b287c4707a245008ec6150f2faf9b08);
+        
+    
+        var popup_54c90d9ca9dd405dbeca09d35b6a7a7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5120c508933b4077a06c42510c0add5c = $(`<div id="html_5120c508933b4077a06c42510c0add5c" style="width: 100.0%; height: 100.0%;">集會交管</div>`)[0];
+            popup_54c90d9ca9dd405dbeca09d35b6a7a7e.setContent(html_5120c508933b4077a06c42510c0add5c);
+        
+
+        marker_320aea25093e4e1c90ff741c0d9288c6.bindPopup(popup_54c90d9ca9dd405dbeca09d35b6a7a7e)
+        ;
+
+        
+    
+    
+            var marker_9f71ae4ffa2645f6b98a61ddf83a8ec4 = L.marker(
+                [25.04110701966726, 121.56147430965311],
+                {}
+            ).addTo(map_48acecb8e57f4f4aade0231aae15f131);
+        
+    
+            var icon_d9eab2d4cb514f0cbfe00c8acd9207d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9f71ae4ffa2645f6b98a61ddf83a8ec4.setIcon(icon_d9eab2d4cb514f0cbfe00c8acd9207d6);
+        
+    
+        var popup_348efa9a2a0742638bb886206c5e3017 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6de8e4a7867415b991ba360f14846e2 = $(`<div id="html_d6de8e4a7867415b991ba360f14846e2" style="width: 100.0%; height: 100.0%;">集會交管</div>`)[0];
+            popup_348efa9a2a0742638bb886206c5e3017.setContent(html_d6de8e4a7867415b991ba360f14846e2);
+        
+
+        marker_9f71ae4ffa2645f6b98a61ddf83a8ec4.bindPopup(popup_348efa9a2a0742638bb886206c5e3017)
+        ;
+
+        
+    
+    
+            var marker_8ecc1469ed1c4be6b6fc3f42e6b50876 = L.marker(
+                [25.04110701966726, 121.56147430965311],
+                {}
+            ).addTo(map_48acecb8e57f4f4aade0231aae15f131);
+        
+    
+            var icon_e430869ec8d549bbb0ad09ae92d56691 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8ecc1469ed1c4be6b6fc3f42e6b50876.setIcon(icon_e430869ec8d549bbb0ad09ae92d56691);
+        
+    
+        var popup_69293cfdc3524349906d7464208d3fec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9b8b7130e3044a689c6884f018b9468 = $(`<div id="html_f9b8b7130e3044a689c6884f018b9468" style="width: 100.0%; height: 100.0%;">集會交管</div>`)[0];
+            popup_69293cfdc3524349906d7464208d3fec.setContent(html_f9b8b7130e3044a689c6884f018b9468);
+        
+
+        marker_8ecc1469ed1c4be6b6fc3f42e6b50876.bindPopup(popup_69293cfdc3524349906d7464208d3fec)
+        ;
+
+        
+    
+</script>

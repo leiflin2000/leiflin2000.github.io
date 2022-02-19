@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f9a518bd11a84e3c883023d3909a8d42 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f9a518bd11a84e3c883023d3909a8d42" ></div>
+        
+</body>
+<script>    
+    
+            var map_f9a518bd11a84e3c883023d3909a8d42 = L.map(
+                "map_f9a518bd11a84e3c883023d3909a8d42",
+                {
+                    center: [25.03746, 121.564558],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f96502a2c30b46ebafdb4611c79ed840 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var marker_bcedc5336a1d40f399342753c7a28b9c = L.marker(
+                [25.01385, 121.53549],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_dca313ed51794325817988fd2e80ec03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bcedc5336a1d40f399342753c7a28b9c.setIcon(icon_dca313ed51794325817988fd2e80ec03);
+        
+    
+        var popup_8c81c8e195404104a1f13ad95bf417f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_205953d812834dccb21579e254582bd5 = $(`<div id="html_205953d812834dccb21579e254582bd5" style="width: 100.0%; height: 100.0%;">YouBike2.0_銘傳國小側門 目前有:4臺</div>`)[0];
+            popup_8c81c8e195404104a1f13ad95bf417f6.setContent(html_205953d812834dccb21579e254582bd5);
+        
+
+        marker_bcedc5336a1d40f399342753c7a28b9c.bindPopup(popup_8c81c8e195404104a1f13ad95bf417f6)
+        ;
+
+        
+    
+    
+            var marker_4ff2dc87f1cc4945962d1de476989b68 = L.marker(
+                [25.01244, 121.53661],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_0414fff716c445da9bd6943c4ea2dced = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4ff2dc87f1cc4945962d1de476989b68.setIcon(icon_0414fff716c445da9bd6943c4ea2dced);
+        
+    
+        var popup_e1a3e60747fb43f481904a43e6b6f8b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57c8e5d154114181bc28e36658325170 = $(`<div id="html_57c8e5d154114181bc28e36658325170" style="width: 100.0%; height: 100.0%;">YouBike2.0_第二學生活動中心 目前有:3臺</div>`)[0];
+            popup_e1a3e60747fb43f481904a43e6b6f8b1.setContent(html_57c8e5d154114181bc28e36658325170);
+        
+
+        marker_4ff2dc87f1cc4945962d1de476989b68.bindPopup(popup_e1a3e60747fb43f481904a43e6b6f8b1)
+        ;
+
+        
+    
+    
+            var marker_2cb88a4beeac4525bf047a9627daef26 = L.marker(
+                [25.01451, 121.54142],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_cc6f1fcbe1044315863eef035efd8346 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2cb88a4beeac4525bf047a9627daef26.setIcon(icon_cc6f1fcbe1044315863eef035efd8346);
+        
+    
+        var popup_062977db8dc2482db5cca2d5d91fe862 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11676772023c42c4b4005d1524e8a5c6 = $(`<div id="html_11676772023c42c4b4005d1524e8a5c6" style="width: 100.0%; height: 100.0%;">YouBike2.0_臺灣科技大學正門 目前有:0臺</div>`)[0];
+            popup_062977db8dc2482db5cca2d5d91fe862.setContent(html_11676772023c42c4b4005d1524e8a5c6);
+        
+
+        marker_2cb88a4beeac4525bf047a9627daef26.bindPopup(popup_062977db8dc2482db5cca2d5d91fe862)
+        ;
+
+        
+    
+    
+            var marker_816e800ddf574422b482e4beed5add0d = L.marker(
+                [25.01295, 121.53973],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_c828faf33f354ab89653afd730884e66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_816e800ddf574422b482e4beed5add0d.setIcon(icon_c828faf33f354ab89653afd730884e66);
+        
+    
+        var popup_c361c56c802e42c4a7abd24b79443074 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d225b71400741cc9db5258d0c0155c3 = $(`<div id="html_2d225b71400741cc9db5258d0c0155c3" style="width: 100.0%; height: 100.0%;">YouBike2.0_臺灣科技大學側門 目前有:6臺</div>`)[0];
+            popup_c361c56c802e42c4a7abd24b79443074.setContent(html_2d225b71400741cc9db5258d0c0155c3);
+        
+
+        marker_816e800ddf574422b482e4beed5add0d.bindPopup(popup_c361c56c802e42c4a7abd24b79443074)
+        ;
+
+        
+    
+    
+            var marker_3767083b3f464604a8ce770b9c777ebf = L.marker(
+                [25.01637, 121.54535],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_f3a46951b2e5417698668c7c1e402a9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3767083b3f464604a8ce770b9c777ebf.setIcon(icon_f3a46951b2e5417698668c7c1e402a9c);
+        
+    
+        var popup_4719ccf0c6724e608c10afa74c1e4df8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_818bcf45bcda4abc8e1958857a719017 = $(`<div id="html_818bcf45bcda4abc8e1958857a719017" style="width: 100.0%; height: 100.0%;">YouBike2.0_臺大男一舍前 目前有:29臺</div>`)[0];
+            popup_4719ccf0c6724e608c10afa74c1e4df8.setContent(html_818bcf45bcda4abc8e1958857a719017);
+        
+
+        marker_3767083b3f464604a8ce770b9c777ebf.bindPopup(popup_4719ccf0c6724e608c10afa74c1e4df8)
+        ;
+
+        
+    
+    
+            var marker_d28510942e404115aae18c53f618b24c = L.marker(
+                [25.01664, 121.5452],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_676d3a04be564dfda8816fd303cc7958 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d28510942e404115aae18c53f618b24c.setIcon(icon_676d3a04be564dfda8816fd303cc7958);
+        
+    
+        var popup_8d3a339ff9194fd28170ddfba3bb4e66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5da6d1b1a51748319a28fe4a0d2d50a5 = $(`<div id="html_5da6d1b1a51748319a28fe4a0d2d50a5" style="width: 100.0%; height: 100.0%;">YouBike2.0_臺大男六舍前 目前有:18臺</div>`)[0];
+            popup_8d3a339ff9194fd28170ddfba3bb4e66.setContent(html_5da6d1b1a51748319a28fe4a0d2d50a5);
+        
+
+        marker_d28510942e404115aae18c53f618b24c.bindPopup(popup_8d3a339ff9194fd28170ddfba3bb4e66)
+        ;
+
+        
+    
+    
+            var marker_1553811948984458ae430c4146ae8a57 = L.marker(
+                [25.01576, 121.54291],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_ac7734a7c27e4ddbadd41c8ad6ccf274 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1553811948984458ae430c4146ae8a57.setIcon(icon_ac7734a7c27e4ddbadd41c8ad6ccf274);
+        
+    
+        var popup_37b68bf1abb546899daf9c5994fa0228 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4983620dfc9447f18fe5447d92e51ca3 = $(`<div id="html_4983620dfc9447f18fe5447d92e51ca3" style="width: 100.0%; height: 100.0%;">YouBike2.0_臺大動物醫院前 目前有:1臺</div>`)[0];
+            popup_37b68bf1abb546899daf9c5994fa0228.setContent(html_4983620dfc9447f18fe5447d92e51ca3);
+        
+
+        marker_1553811948984458ae430c4146ae8a57.bindPopup(popup_37b68bf1abb546899daf9c5994fa0228)
+        ;
+
+        
+    
+    
+            var marker_118a1415b86d4180aa8d142f90b3915f = L.marker(
+                [25.01727, 121.54471],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_b0e82b8cb2c6428ab1a40a3dd0876aea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_118a1415b86d4180aa8d142f90b3915f.setIcon(icon_b0e82b8cb2c6428ab1a40a3dd0876aea);
+        
+    
+        var popup_080fe71d12bb4751a4d87f3cd33f7d6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72b40fdc88d34bfb946f0f8236fe54bd = $(`<div id="html_72b40fdc88d34bfb946f0f8236fe54bd" style="width: 100.0%; height: 100.0%;">YouBike2.0_基隆長興路口東側 目前有:5臺</div>`)[0];
+            popup_080fe71d12bb4751a4d87f3cd33f7d6d.setContent(html_72b40fdc88d34bfb946f0f8236fe54bd);
+        
+
+        marker_118a1415b86d4180aa8d142f90b3915f.bindPopup(popup_080fe71d12bb4751a4d87f3cd33f7d6d)
+        ;
+
+        
+    
+    
+            var marker_a47e3bdc318041c1bcfa4e188fdcd84a = L.marker(
+                [25.02397, 121.55266],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_50432269c5844c27b10b29fff8f6f1bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a47e3bdc318041c1bcfa4e188fdcd84a.setIcon(icon_50432269c5844c27b10b29fff8f6f1bf);
+        
+    
+        var popup_8424dda75ebd4bbaa27b8814ce88c347 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a37a9a6b5664e65b1d6858bce5e7b70 = $(`<div id="html_3a37a9a6b5664e65b1d6858bce5e7b70" style="width: 100.0%; height: 100.0%;">YouBike2.0_捷運六張犁站 目前有:15臺</div>`)[0];
+            popup_8424dda75ebd4bbaa27b8814ce88c347.setContent(html_3a37a9a6b5664e65b1d6858bce5e7b70);
+        
+
+        marker_a47e3bdc318041c1bcfa4e188fdcd84a.bindPopup(popup_8424dda75ebd4bbaa27b8814ce88c347)
+        ;
+
+        
+    
+    
+            var marker_4faef18085c9442d930b20093b4b7276 = L.marker(
+                [25.02705, 121.55551],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_e3363eb0e0d14df68893d9dbf4b0cc41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4faef18085c9442d930b20093b4b7276.setIcon(icon_e3363eb0e0d14df68893d9dbf4b0cc41);
+        
+    
+        var popup_2919ac2a1d8e427a988d3667cfd8f57e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33d5ccf955994e8eba13edb5173e46dc = $(`<div id="html_33d5ccf955994e8eba13edb5173e46dc" style="width: 100.0%; height: 100.0%;">YouBike2.0_喬治工商 目前有:11臺</div>`)[0];
+            popup_2919ac2a1d8e427a988d3667cfd8f57e.setContent(html_33d5ccf955994e8eba13edb5173e46dc);
+        
+
+        marker_4faef18085c9442d930b20093b4b7276.bindPopup(popup_2919ac2a1d8e427a988d3667cfd8f57e)
+        ;
+
+        
+    
+    
+            var marker_8a63994f4d9c42ea8c1ab29c9fbc22c1 = L.marker(
+                [25.02021, 121.52942],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_732a720e975449edbec962d78325a4a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8a63994f4d9c42ea8c1ab29c9fbc22c1.setIcon(icon_732a720e975449edbec962d78325a4a1);
+        
+    
+        var popup_62cdc153d8d3419780a604605411d0a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4a7b7a6589b4e31ae0214738800b63e = $(`<div id="html_f4a7b7a6589b4e31ae0214738800b63e" style="width: 100.0%; height: 100.0%;">YouBike2.0_捷運臺電大樓站(2號出口) 目前有:4臺</div>`)[0];
+            popup_62cdc153d8d3419780a604605411d0a5.setContent(html_f4a7b7a6589b4e31ae0214738800b63e);
+        
+
+        marker_8a63994f4d9c42ea8c1ab29c9fbc22c1.bindPopup(popup_62cdc153d8d3419780a604605411d0a5)
+        ;
+
+        
+    
+    
+            var marker_893629754887449cb40bf3730a893196 = L.marker(
+                [25.0276, 121.52217],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_c18e4582e6c24fec92e0ff3c107b2be3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_893629754887449cb40bf3730a893196.setIcon(icon_c18e4582e6c24fec92e0ff3c107b2be3);
+        
+    
+        var popup_bfe14d24fd4a4a188fbdb58ec59b868c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6887987deeb04abda6852aeb263b15d2 = $(`<div id="html_6887987deeb04abda6852aeb263b15d2" style="width: 100.0%; height: 100.0%;">YouBike2.0_捷運古亭站(6號出口) 目前有:3臺</div>`)[0];
+            popup_bfe14d24fd4a4a188fbdb58ec59b868c.setContent(html_6887987deeb04abda6852aeb263b15d2);
+        
+
+        marker_893629754887449cb40bf3730a893196.bindPopup(popup_bfe14d24fd4a4a188fbdb58ec59b868c)
+        ;
+
+        
+    
+    
+            var marker_b541583d34494bb7ba902358226e785c = L.marker(
+                [25.02715, 121.52293],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_72acecbe2bd54348990671096f69e0db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b541583d34494bb7ba902358226e785c.setIcon(icon_72acecbe2bd54348990671096f69e0db);
+        
+    
+        var popup_1c65ba43ff7e4e428c9d238e11b81276 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86d57dffe649434dbbdd31fa278abc8c = $(`<div id="html_86d57dffe649434dbbdd31fa278abc8c" style="width: 100.0%; height: 100.0%;">YouBike2.0_捷運古亭站(5號出口) 目前有:8臺</div>`)[0];
+            popup_1c65ba43ff7e4e428c9d238e11b81276.setContent(html_86d57dffe649434dbbdd31fa278abc8c);
+        
+
+        marker_b541583d34494bb7ba902358226e785c.bindPopup(popup_1c65ba43ff7e4e428c9d238e11b81276)
+        ;
+
+        
+    
+    
+            var marker_3d770a2772524877b5c4c19fc89b6083 = L.marker(
+                [25.02931, 121.55721],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_a695f41ccfb74ad796610f0821d4f6a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3d770a2772524877b5c4c19fc89b6083.setIcon(icon_a695f41ccfb74ad796610f0821d4f6a2);
+        
+    
+        var popup_6ff2fe40bb894dfa9830e262f5365d68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3d617c1b947435591bf570d9d24bb6f = $(`<div id="html_f3d617c1b947435591bf570d9d24bb6f" style="width: 100.0%; height: 100.0%;">YouBike2.0_臨江街夜市(基隆路) 目前有:8臺</div>`)[0];
+            popup_6ff2fe40bb894dfa9830e262f5365d68.setContent(html_f3d617c1b947435591bf570d9d24bb6f);
+        
+
+        marker_3d770a2772524877b5c4c19fc89b6083.bindPopup(popup_6ff2fe40bb894dfa9830e262f5365d68)
+        ;
+
+        
+    
+    
+            var marker_9511909281f2488cafcf63a3ffcba833 = L.marker(
+                [25.02694, 121.52224],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_45c5194e54b64a579a53d9848e0358ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9511909281f2488cafcf63a3ffcba833.setIcon(icon_45c5194e54b64a579a53d9848e0358ad);
+        
+    
+        var popup_61cd98f52a25491e8a0505235efb1951 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66a8526f530a4f4e84bfd5d4436bf49f = $(`<div id="html_66a8526f530a4f4e84bfd5d4436bf49f" style="width: 100.0%; height: 100.0%;">YouBike2.0_捷運古亭站(9號出口) 目前有:6臺</div>`)[0];
+            popup_61cd98f52a25491e8a0505235efb1951.setContent(html_66a8526f530a4f4e84bfd5d4436bf49f);
+        
+
+        marker_9511909281f2488cafcf63a3ffcba833.bindPopup(popup_61cd98f52a25491e8a0505235efb1951)
+        ;
+
+        
+    
+    
+            var marker_d5d23f7e256c45c68c729bf7f02be9bf = L.marker(
+                [25.0255, 121.52346],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_2ac1f5c9adf44b47ad5fc5d8974198d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d5d23f7e256c45c68c729bf7f02be9bf.setIcon(icon_2ac1f5c9adf44b47ad5fc5d8974198d9);
+        
+    
+        var popup_56ce83703929420a93e88774f1fe00f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38454fa9fccf40bc90f0874452cc22b2 = $(`<div id="html_38454fa9fccf40bc90f0874452cc22b2" style="width: 100.0%; height: 100.0%;">YouBike2.0_捷運古亭站(2號出口) 目前有:1臺</div>`)[0];
+            popup_56ce83703929420a93e88774f1fe00f3.setContent(html_38454fa9fccf40bc90f0874452cc22b2);
+        
+
+        marker_d5d23f7e256c45c68c729bf7f02be9bf.bindPopup(popup_56ce83703929420a93e88774f1fe00f3)
+        ;
+
+        
+    
+    
+            var marker_bcf87bf989db425aa9e9f8156734e125 = L.marker(
+                [25.0197, 121.529],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_26697e6f2fd14864b4a2377db4c94e8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bcf87bf989db425aa9e9f8156734e125.setIcon(icon_26697e6f2fd14864b4a2377db4c94e8f);
+        
+    
+        var popup_1aa49fb20e784e6c8c8d9700944acfb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d1fc0ca3b15403083d6c81edaac613a = $(`<div id="html_4d1fc0ca3b15403083d6c81edaac613a" style="width: 100.0%; height: 100.0%;">YouBike2.0_捷運臺電大樓站(1號出口) 目前有:6臺</div>`)[0];
+            popup_1aa49fb20e784e6c8c8d9700944acfb3.setContent(html_4d1fc0ca3b15403083d6c81edaac613a);
+        
+
+        marker_bcf87bf989db425aa9e9f8156734e125.bindPopup(popup_1aa49fb20e784e6c8c8d9700944acfb3)
+        ;
+
+        
+    
+    
+            var marker_edacab6adadc4550a2db582d2ab07bef = L.marker(
+                [25.02075, 121.52771],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_3534d7f4fe87437fb633de86d8c5895e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_edacab6adadc4550a2db582d2ab07bef.setIcon(icon_3534d7f4fe87437fb633de86d8c5895e);
+        
+    
+        var popup_fa9d05e6e8d94e3582339ce423ca140f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c7e83a85bb445b4ac6e455abd17a14c = $(`<div id="html_5c7e83a85bb445b4ac6e455abd17a14c" style="width: 100.0%; height: 100.0%;">YouBike2.0_捷運臺電大樓站(5號出口) 目前有:4臺</div>`)[0];
+            popup_fa9d05e6e8d94e3582339ce423ca140f.setContent(html_5c7e83a85bb445b4ac6e455abd17a14c);
+        
+
+        marker_edacab6adadc4550a2db582d2ab07bef.bindPopup(popup_fa9d05e6e8d94e3582339ce423ca140f)
+        ;
+
+        
+    
+    
+            var marker_f661666fd6314a5db6c1add2efad3999 = L.marker(
+                [25.02102, 121.52751],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_1e38daf03c964c24aae977384be7b061 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f661666fd6314a5db6c1add2efad3999.setIcon(icon_1e38daf03c964c24aae977384be7b061);
+        
+    
+        var popup_125ba68bf6a14fa1baf87599794a2736 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78a71b26bf4e4ba99d6dba24ade99204 = $(`<div id="html_78a71b26bf4e4ba99d6dba24ade99204" style="width: 100.0%; height: 100.0%;">YouBike2.0_捷運臺電大樓站(4號出口) 目前有:2臺</div>`)[0];
+            popup_125ba68bf6a14fa1baf87599794a2736.setContent(html_78a71b26bf4e4ba99d6dba24ade99204);
+        
+
+        marker_f661666fd6314a5db6c1add2efad3999.bindPopup(popup_125ba68bf6a14fa1baf87599794a2736)
+        ;
+
+        
+    
+    
+            var marker_a7165c92302d4324975ad7fd733fffe1 = L.marker(
+                [25.02345, 121.52498],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_03f52c43deec4db3b1774b060b7e3191 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a7165c92302d4324975ad7fd733fffe1.setIcon(icon_03f52c43deec4db3b1774b060b7e3191);
+        
+    
+        var popup_198369f7251248e78f03af1cb4bde135 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_765a0d408005436a92509083eca4f84b = $(`<div id="html_765a0d408005436a92509083eca4f84b" style="width: 100.0%; height: 100.0%;">YouBike2.0_羅斯福三段金門街口 目前有:4臺</div>`)[0];
+            popup_198369f7251248e78f03af1cb4bde135.setContent(html_765a0d408005436a92509083eca4f84b);
+        
+
+        marker_a7165c92302d4324975ad7fd733fffe1.bindPopup(popup_198369f7251248e78f03af1cb4bde135)
+        ;
+
+        
+    
+    
+            var marker_84442d492a1e420c9b6d2bcc128d72a9 = L.marker(
+                [25.02701, 121.52164],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_a425433d843e4378b326242bd347a94a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_84442d492a1e420c9b6d2bcc128d72a9.setIcon(icon_a425433d843e4378b326242bd347a94a);
+        
+    
+        var popup_5ea83d851eb3458f9996541695328032 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2dfa35f7ecb4cbf90fe52bbc3e5901c = $(`<div id="html_c2dfa35f7ecb4cbf90fe52bbc3e5901c" style="width: 100.0%; height: 100.0%;">YouBike2.0_捷運古亭站(8號出口) 目前有:3臺</div>`)[0];
+            popup_5ea83d851eb3458f9996541695328032.setContent(html_c2dfa35f7ecb4cbf90fe52bbc3e5901c);
+        
+
+        marker_84442d492a1e420c9b6d2bcc128d72a9.bindPopup(popup_5ea83d851eb3458f9996541695328032)
+        ;
+
+        
+    
+    
+            var marker_1c57b22250fd486d9071420b61918085 = L.marker(
+                [25.02805, 121.52155],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_0fea5e099d6644e1bc2041869bd80a6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1c57b22250fd486d9071420b61918085.setIcon(icon_0fea5e099d6644e1bc2041869bd80a6c);
+        
+    
+        var popup_73953e161a8b406384af04a9568bc4a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5171a67d1ef4ba2908fb35d5b2cb641 = $(`<div id="html_b5171a67d1ef4ba2908fb35d5b2cb641" style="width: 100.0%; height: 100.0%;">YouBike2.0_捷運古亭站(7號出口) 目前有:1臺</div>`)[0];
+            popup_73953e161a8b406384af04a9568bc4a2.setContent(html_b5171a67d1ef4ba2908fb35d5b2cb641);
+        
+
+        marker_1c57b22250fd486d9071420b61918085.bindPopup(popup_73953e161a8b406384af04a9568bc4a2)
+        ;
+
+        
+    
+    
+            var marker_681a2073775f4b828f49a5193aac9331 = L.marker(
+                [25.02698, 121.52081],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_5fad675107a847d8b713b1d90b4c0cc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_681a2073775f4b828f49a5193aac9331.setIcon(icon_5fad675107a847d8b713b1d90b4c0cc3);
+        
+    
+        var popup_3c622aded67346c2b98e8d102aa152eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_184c0ec0ffd9455391af801f2ea0aef0 = $(`<div id="html_184c0ec0ffd9455391af801f2ea0aef0" style="width: 100.0%; height: 100.0%;">YouBike2.0_南昌公園 目前有:8臺</div>`)[0];
+            popup_3c622aded67346c2b98e8d102aa152eb.setContent(html_184c0ec0ffd9455391af801f2ea0aef0);
+        
+
+        marker_681a2073775f4b828f49a5193aac9331.bindPopup(popup_3c622aded67346c2b98e8d102aa152eb)
+        ;
+
+        
+    
+    
+            var marker_e3dc43c56b6d4c7dacfd962d3ba3adf4 = L.marker(
+                [25.02933, 121.51854],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_7793ba7dfe88419180b7c696ab5e6aa9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e3dc43c56b6d4c7dacfd962d3ba3adf4.setIcon(icon_7793ba7dfe88419180b7c696ab5e6aa9);
+        
+    
+        var popup_25271790f79b4d7d977bd170074e2ff4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46775e72ab12496aadb7f597ffac745c = $(`<div id="html_46775e72ab12496aadb7f597ffac745c" style="width: 100.0%; height: 100.0%;">YouBike2.0_孫立人將軍官邸 目前有:8臺</div>`)[0];
+            popup_25271790f79b4d7d977bd170074e2ff4.setContent(html_46775e72ab12496aadb7f597ffac745c);
+        
+
+        marker_e3dc43c56b6d4c7dacfd962d3ba3adf4.bindPopup(popup_25271790f79b4d7d977bd170074e2ff4)
+        ;
+
+        
+    
+    
+            var marker_04302988e65143d49fd26eefc12810ba = L.marker(
+                [25.02923, 121.52058],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_ba75472b7aa64a98920b1f4ca56168ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_04302988e65143d49fd26eefc12810ba.setIcon(icon_ba75472b7aa64a98920b1f4ca56168ad);
+        
+    
+        var popup_fae15dd4ac9743b6b4f518faf7eba9cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00549e7bbcd44d9cb6e8817cd61125de = $(`<div id="html_00549e7bbcd44d9cb6e8817cd61125de" style="width: 100.0%; height: 100.0%;">YouBike2.0_羅斯福路二段6巷口 目前有:3臺</div>`)[0];
+            popup_fae15dd4ac9743b6b4f518faf7eba9cf.setContent(html_00549e7bbcd44d9cb6e8817cd61125de);
+        
+
+        marker_04302988e65143d49fd26eefc12810ba.bindPopup(popup_fae15dd4ac9743b6b4f518faf7eba9cf)
+        ;
+
+        
+    
+    
+            var marker_43194bccbf3c4fe583c8db69ca5a16ee = L.marker(
+                [25.03124, 121.51459],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_ae7438f3634a42bd9b1b0fb0e014ae83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_43194bccbf3c4fe583c8db69ca5a16ee.setIcon(icon_ae7438f3634a42bd9b1b0fb0e014ae83);
+        
+    
+        var popup_dcb18478c06a43d6b09aea6527f75eeb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3699d7d401d74456b63a354ca53465ab = $(`<div id="html_3699d7d401d74456b63a354ca53465ab" style="width: 100.0%; height: 100.0%;">YouBike2.0_重慶南海路口西南側 目前有:4臺</div>`)[0];
+            popup_dcb18478c06a43d6b09aea6527f75eeb.setContent(html_3699d7d401d74456b63a354ca53465ab);
+        
+
+        marker_43194bccbf3c4fe583c8db69ca5a16ee.bindPopup(popup_dcb18478c06a43d6b09aea6527f75eeb)
+        ;
+
+        
+    
+    
+            var marker_fd5d55ced9c34bfd879fa8a5d1ca464b = L.marker(
+                [25.03024, 121.50904],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_c4370f438fec4015adbaa946c5a0b27a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fd5d55ced9c34bfd879fa8a5d1ca464b.setIcon(icon_c4370f438fec4015adbaa946c5a0b27a);
+        
+    
+        var popup_1c400ae4bb904e819f06b44835ab827e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d86c6cf28b642a394bc6d5610373fac = $(`<div id="html_0d86c6cf28b642a394bc6d5610373fac" style="width: 100.0%; height: 100.0%;">YouBike2.0_南海和平路口西南側 目前有:9臺</div>`)[0];
+            popup_1c400ae4bb904e819f06b44835ab827e.setContent(html_0d86c6cf28b642a394bc6d5610373fac);
+        
+
+        marker_fd5d55ced9c34bfd879fa8a5d1ca464b.bindPopup(popup_1c400ae4bb904e819f06b44835ab827e)
+        ;
+
+        
+    
+    
+            var marker_b3348aff7c59490786a479868903d24b = L.marker(
+                [25.03132, 121.50745],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_d7fb7c7b426b45c2932b6fda9949c832 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b3348aff7c59490786a479868903d24b.setIcon(icon_d7fb7c7b426b45c2932b6fda9949c832);
+        
+    
+        var popup_41783f40a96d4a8b81c55e9a9c9177a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdc6c0cc4d8846ab99aa99e3f2ffe70f = $(`<div id="html_cdc6c0cc4d8846ab99aa99e3f2ffe70f" style="width: 100.0%; height: 100.0%;">YouBike2.0_莒光和平路口 目前有:5臺</div>`)[0];
+            popup_41783f40a96d4a8b81c55e9a9c9177a9.setContent(html_cdc6c0cc4d8846ab99aa99e3f2ffe70f);
+        
+
+        marker_b3348aff7c59490786a479868903d24b.bindPopup(popup_41783f40a96d4a8b81c55e9a9c9177a9)
+        ;
+
+        
+    
+    
+            var marker_bdd3ad5394164db1a69a1102886b20b9 = L.marker(
+                [25.02561, 121.55409],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_6364b81b3ead4a45a469e0bfcc3d66b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bdd3ad5394164db1a69a1102886b20b9.setIcon(icon_6364b81b3ead4a45a469e0bfcc3d66b1);
+        
+    
+        var popup_0a1634c0a9444100b6cfbafacf3a7352 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efc070f6d39143ef80a1a086041c2992 = $(`<div id="html_efc070f6d39143ef80a1a086041c2992" style="width: 100.0%; height: 100.0%;">YouBike2.0_基隆路二段159巷口 目前有:15臺</div>`)[0];
+            popup_0a1634c0a9444100b6cfbafacf3a7352.setContent(html_efc070f6d39143ef80a1a086041c2992);
+        
+
+        marker_bdd3ad5394164db1a69a1102886b20b9.bindPopup(popup_0a1634c0a9444100b6cfbafacf3a7352)
+        ;
+
+        
+    
+    
+            var marker_e61cccf43b92470a8acca549e99d1e3f = L.marker(
+                [25.02811, 121.55671],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_f583f667cbcf459a934149bbd6e85fd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e61cccf43b92470a8acca549e99d1e3f.setIcon(icon_f583f667cbcf459a934149bbd6e85fd2);
+        
+    
+        var popup_9e46107bc1214f85b7de838bd8ea5cef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a1bd14afc2e4745a192b6cfbbe1460d = $(`<div id="html_0a1bd14afc2e4745a192b6cfbbe1460d" style="width: 100.0%; height: 100.0%;">YouBike2.0_嘉興街175巷口 目前有:11臺</div>`)[0];
+            popup_9e46107bc1214f85b7de838bd8ea5cef.setContent(html_0a1bd14afc2e4745a192b6cfbbe1460d);
+        
+
+        marker_e61cccf43b92470a8acca549e99d1e3f.bindPopup(popup_9e46107bc1214f85b7de838bd8ea5cef)
+        ;
+
+        
+    
+    
+            var marker_8cec5b6bbf71425783e7d19c5b41e779 = L.marker(
+                [25.02388, 121.56984],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_884da1fa28ae42c7b452a590291d97da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8cec5b6bbf71425783e7d19c5b41e779.setIcon(icon_884da1fa28ae42c7b452a590291d97da);
+        
+    
+        var popup_5391e048deae46f09cf123871a46801c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_652095d471f04a3eb39bd848fe778f65 = $(`<div id="html_652095d471f04a3eb39bd848fe778f65" style="width: 100.0%; height: 100.0%;">YouBike2.0_吳興公車總站 目前有:15臺</div>`)[0];
+            popup_5391e048deae46f09cf123871a46801c.setContent(html_652095d471f04a3eb39bd848fe778f65);
+        
+
+        marker_8cec5b6bbf71425783e7d19c5b41e779.bindPopup(popup_5391e048deae46f09cf123871a46801c)
+        ;
+
+        
+    
+    
+            var marker_01f02f4913e34881906021e486e0b8ed = L.marker(
+                [25.02969, 121.55766],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_6ae24e322b944611b13157e3eadf5af0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_01f02f4913e34881906021e486e0b8ed.setIcon(icon_6ae24e322b944611b13157e3eadf5af0);
+        
+    
+        var popup_82940077e9444cd9b703474d12012bef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4c6f34bea50415e966d1e44d13316e9 = $(`<div id="html_d4c6f34bea50415e966d1e44d13316e9" style="width: 100.0%; height: 100.0%;">YouBike2.0_三興國小 目前有:6臺</div>`)[0];
+            popup_82940077e9444cd9b703474d12012bef.setContent(html_d4c6f34bea50415e966d1e44d13316e9);
+        
+
+        marker_01f02f4913e34881906021e486e0b8ed.bindPopup(popup_82940077e9444cd9b703474d12012bef)
+        ;
+
+        
+    
+    
+            var marker_d6db0b131ca74878897f8e3e10fcf554 = L.marker(
+                [25.03005, 121.55764],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_57b6bc1e02034506aff3b8de7cbfe28d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d6db0b131ca74878897f8e3e10fcf554.setIcon(icon_57b6bc1e02034506aff3b8de7cbfe28d);
+        
+    
+        var popup_cc51176f7375422ba2139deb4de65a3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_262545a0ca2f4fd08e0ee52bf9e3a5e6 = $(`<div id="html_262545a0ca2f4fd08e0ee52bf9e3a5e6" style="width: 100.0%; height: 100.0%;">YouBike2.0_基隆光復路口 目前有:0臺</div>`)[0];
+            popup_cc51176f7375422ba2139deb4de65a3a.setContent(html_262545a0ca2f4fd08e0ee52bf9e3a5e6);
+        
+
+        marker_d6db0b131ca74878897f8e3e10fcf554.bindPopup(popup_cc51176f7375422ba2139deb4de65a3a)
+        ;
+
+        
+    
+    
+            var marker_c5742afd3e8649968fa69223d0d8994d = L.marker(
+                [25.0327, 121.56157],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_0cc93c23b3ee4a3a8ce4ad5362a2cb17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c5742afd3e8649968fa69223d0d8994d.setIcon(icon_0cc93c23b3ee4a3a8ce4ad5362a2cb17);
+        
+    
+        var popup_3037d50191954a6ea12f9ec503caed52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ef3583fc979453d814814c42ff16a31 = $(`<div id="html_1ef3583fc979453d814814c42ff16a31" style="width: 100.0%; height: 100.0%;">YouBike2.0_捷運台北101/世貿站(2號出口) 目前有:1臺</div>`)[0];
+            popup_3037d50191954a6ea12f9ec503caed52.setContent(html_1ef3583fc979453d814814c42ff16a31);
+        
+
+        marker_c5742afd3e8649968fa69223d0d8994d.bindPopup(popup_3037d50191954a6ea12f9ec503caed52)
+        ;
+
+        
+    
+    
+            var marker_0a27e9efac474503bb3391eb6302df65 = L.marker(
+                [25.03284, 121.48908],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_e702d8cca12a4936b74e9a98861568c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0a27e9efac474503bb3391eb6302df65.setIcon(icon_e702d8cca12a4936b74e9a98861568c9);
+        
+    
+        var popup_6971ce94370440989e1058c1852157ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3603ccd60b094709b41081c448a6d31f = $(`<div id="html_3603ccd60b094709b41081c448a6d31f" style="width: 100.0%; height: 100.0%;">YouBike2.0_長順區民活動中心 目前有:9臺</div>`)[0];
+            popup_6971ce94370440989e1058c1852157ea.setContent(html_3603ccd60b094709b41081c448a6d31f);
+        
+
+        marker_0a27e9efac474503bb3391eb6302df65.bindPopup(popup_6971ce94370440989e1058c1852157ea)
+        ;
+
+        
+    
+    
+            var marker_f0bcef5527414512a629d13b9bf5ac21 = L.marker(
+                [25.03388, 121.49293],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_4620049b4c8646b29c6950db6dd4139e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f0bcef5527414512a629d13b9bf5ac21.setIcon(icon_4620049b4c8646b29c6950db6dd4139e);
+        
+    
+        var popup_ca9221fa4adc497ca1df5f6cc4cecaf9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf9b3c085aca48018ce2f02eb83f6169 = $(`<div id="html_cf9b3c085aca48018ce2f02eb83f6169" style="width: 100.0%; height: 100.0%;">YouBike2.0_華江八號公園 目前有:14臺</div>`)[0];
+            popup_ca9221fa4adc497ca1df5f6cc4cecaf9.setContent(html_cf9b3c085aca48018ce2f02eb83f6169);
+        
+
+        marker_f0bcef5527414512a629d13b9bf5ac21.bindPopup(popup_ca9221fa4adc497ca1df5f6cc4cecaf9)
+        ;
+
+        
+    
+    
+            var marker_824f3801da1c4278a28e09ade52390a1 = L.marker(
+                [25.03203, 121.49127],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_93b8729aef4a493b957e9ce72a3bd735 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_824f3801da1c4278a28e09ade52390a1.setIcon(icon_93b8729aef4a493b957e9ce72a3bd735);
+        
+    
+        var popup_83b54069ad4d4f0381abb895b1e6727b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7b58e4bebca4ea08771ba1d75057552 = $(`<div id="html_c7b58e4bebca4ea08771ba1d75057552" style="width: 100.0%; height: 100.0%;">YouBike2.0_環河南雙園街口 目前有:11臺</div>`)[0];
+            popup_83b54069ad4d4f0381abb895b1e6727b.setContent(html_c7b58e4bebca4ea08771ba1d75057552);
+        
+
+        marker_824f3801da1c4278a28e09ade52390a1.bindPopup(popup_83b54069ad4d4f0381abb895b1e6727b)
+        ;
+
+        
+    
+    
+            var marker_7025b8a2829f496ebfdaa93e97f7aa11 = L.marker(
+                [25.03062, 121.49021],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_9397e9a8e528416bbbcf77d029aa8cdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7025b8a2829f496ebfdaa93e97f7aa11.setIcon(icon_9397e9a8e528416bbbcf77d029aa8cdc);
+        
+    
+        var popup_54c653c8c0224960be8170dccf299a01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c948acff07da4c7e86d75ebc5df3ff5e = $(`<div id="html_c948acff07da4c7e86d75ebc5df3ff5e" style="width: 100.0%; height: 100.0%;">YouBike2.0_大理高中 目前有:3臺</div>`)[0];
+            popup_54c653c8c0224960be8170dccf299a01.setContent(html_c948acff07da4c7e86d75ebc5df3ff5e);
+        
+
+        marker_7025b8a2829f496ebfdaa93e97f7aa11.bindPopup(popup_54c653c8c0224960be8170dccf299a01)
+        ;
+
+        
+    
+    
+            var marker_cc152903c5e14b0fae5650cf143ce4f0 = L.marker(
+                [25.03535, 121.49938],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_40753d9dca1a455692b2756d1314e914 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cc152903c5e14b0fae5650cf143ce4f0.setIcon(icon_40753d9dca1a455692b2756d1314e914);
+        
+    
+        var popup_09815d364bc84c0aada3595ff9c03f4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01a9517c8dc54683a139fad79bd6be3a = $(`<div id="html_01a9517c8dc54683a139fad79bd6be3a" style="width: 100.0%; height: 100.0%;">YouBike2.0_捷運龍山寺站(1號出口) 目前有:2臺</div>`)[0];
+            popup_09815d364bc84c0aada3595ff9c03f4a.setContent(html_01a9517c8dc54683a139fad79bd6be3a);
+        
+
+        marker_cc152903c5e14b0fae5650cf143ce4f0.bindPopup(popup_09815d364bc84c0aada3595ff9c03f4a)
+        ;
+
+        
+    
+    
+            var marker_8a039dbf17f04bc08a3b564674922749 = L.marker(
+                [25.0355, 121.49541],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_e2c5f23c8b6840f7a19fb9bb63cbe515 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8a039dbf17f04bc08a3b564674922749.setIcon(icon_e2c5f23c8b6840f7a19fb9bb63cbe515);
+        
+    
+        var popup_6a0ba590caa04394822d651bc1206637 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_511707f26ff649fa831df266d370509b = $(`<div id="html_511707f26ff649fa831df266d370509b" style="width: 100.0%; height: 100.0%;">YouBike2.0_龍山國小 目前有:8臺</div>`)[0];
+            popup_6a0ba590caa04394822d651bc1206637.setContent(html_511707f26ff649fa831df266d370509b);
+        
+
+        marker_8a039dbf17f04bc08a3b564674922749.bindPopup(popup_6a0ba590caa04394822d651bc1206637)
+        ;
+
+        
+    
+    
+            var marker_b2497c16ab674f419d85a795192dd5fb = L.marker(
+                [25.03509, 121.50199],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_8138b8805c73445d8af7383b8fced570 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b2497c16ab674f419d85a795192dd5fb.setIcon(icon_8138b8805c73445d8af7383b8fced570);
+        
+    
+        var popup_09b4cf30bb4a45b79776e30f485eefd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4124fd2cf64a4cc28a3476a108ea6f6b = $(`<div id="html_4124fd2cf64a4cc28a3476a108ea6f6b" style="width: 100.0%; height: 100.0%;">YouBike2.0_捷運龍山寺站(3號出口) 目前有:1臺</div>`)[0];
+            popup_09b4cf30bb4a45b79776e30f485eefd2.setContent(html_4124fd2cf64a4cc28a3476a108ea6f6b);
+        
+
+        marker_b2497c16ab674f419d85a795192dd5fb.bindPopup(popup_09b4cf30bb4a45b79776e30f485eefd2)
+        ;
+
+        
+    
+    
+            var marker_40ab42b7fddf4afaa6d1d2b6c381ebf7 = L.marker(
+                [25.01729, 121.54531],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_df5c26485b52487fa26af3bf33061a37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_40ab42b7fddf4afaa6d1d2b6c381ebf7.setIcon(icon_df5c26485b52487fa26af3bf33061a37);
+        
+    
+        var popup_80910166a9f245c39df0934f7ec8eabe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d341012805342bfa9304f880fc5ad71 = $(`<div id="html_5d341012805342bfa9304f880fc5ad71" style="width: 100.0%; height: 100.0%;">YouBike2.0_臺大男八舍東側 目前有:31臺</div>`)[0];
+            popup_80910166a9f245c39df0934f7ec8eabe.setContent(html_5d341012805342bfa9304f880fc5ad71);
+        
+
+        marker_40ab42b7fddf4afaa6d1d2b6c381ebf7.bindPopup(popup_80910166a9f245c39df0934f7ec8eabe)
+        ;
+
+        
+    
+    
+            var marker_86528c885659452cbbb4045d1291499c = L.marker(
+                [25.01547, 121.53436],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_4af36bdd06c04ba2a6356dabb82c0b65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_86528c885659452cbbb4045d1291499c.setIcon(icon_4af36bdd06c04ba2a6356dabb82c0b65);
+        
+    
+        var popup_e806626a674c4e71b7a9ccd0a66e243c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53ca0e0fdf694e7597acda7250ca66a8 = $(`<div id="html_53ca0e0fdf694e7597acda7250ca66a8" style="width: 100.0%; height: 100.0%;">YouBike2.0_臺大大一女舍北側 目前有:37臺</div>`)[0];
+            popup_e806626a674c4e71b7a9ccd0a66e243c.setContent(html_53ca0e0fdf694e7597acda7250ca66a8);
+        
+
+        marker_86528c885659452cbbb4045d1291499c.bindPopup(popup_e806626a674c4e71b7a9ccd0a66e243c)
+        ;
+
+        
+    
+    
+            var marker_23467b1e8bf6447ca7bb42919465ad1b = L.marker(
+                [25.01616, 121.54251],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_f2c24e672c5f4b2da9899eb7b2928c34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_23467b1e8bf6447ca7bb42919465ad1b.setIcon(icon_f2c24e672c5f4b2da9899eb7b2928c34);
+        
+    
+        var popup_cb81b5230e1a4bf1b3eeff533645ec33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5a72f6c37b84d93a4eabac06371a144 = $(`<div id="html_d5a72f6c37b84d93a4eabac06371a144" style="width: 100.0%; height: 100.0%;">YouBike2.0_臺大立體機車停車場 目前有:0臺</div>`)[0];
+            popup_cb81b5230e1a4bf1b3eeff533645ec33.setContent(html_d5a72f6c37b84d93a4eabac06371a144);
+        
+
+        marker_23467b1e8bf6447ca7bb42919465ad1b.bindPopup(popup_cb81b5230e1a4bf1b3eeff533645ec33)
+        ;
+
+        
+    
+    
+            var marker_c9768a684155411182e5959b6d31d9f3 = L.marker(
+                [25.01754, 121.54398],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_a50b4aaa1dea4b3e9e46b4b8374fab3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c9768a684155411182e5959b6d31d9f3.setIcon(icon_a50b4aaa1dea4b3e9e46b4b8374fab3d);
+        
+    
+        var popup_f7a51e9858cb46608257cf77697afba9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c9d4c98a7a74cb193c10694e822f345 = $(`<div id="html_3c9d4c98a7a74cb193c10694e822f345" style="width: 100.0%; height: 100.0%;">YouBike2.0_臺大明達館機車停車場 目前有:3臺</div>`)[0];
+            popup_f7a51e9858cb46608257cf77697afba9.setContent(html_3c9d4c98a7a74cb193c10694e822f345);
+        
+
+        marker_c9768a684155411182e5959b6d31d9f3.bindPopup(popup_f7a51e9858cb46608257cf77697afba9)
+        ;
+
+        
+    
+    
+            var marker_b22721c10c2f49f09faea9951bf369d0 = L.marker(
+                [25.01337, 121.53909],
+                {}
+            ).addTo(map_f9a518bd11a84e3c883023d3909a8d42);
+        
+    
+            var icon_5cc4a20d6bdd446992b1a25a7ddf2f7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b22721c10c2f49f09faea9951bf369d0.setIcon(icon_5cc4a20d6bdd446992b1a25a7ddf2f7e);
+        
+    
+        var popup_840290b8f74a456f8e27ce5d4ca22a9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b399b59dc119474c8c36af0e72d0abb9 = $(`<div id="html_b399b59dc119474c8c36af0e72d0abb9" style="width: 100.0%; height: 100.0%;">YouBike2.0_臺大教研館北側 目前有:0臺</div>`)[0];
+            popup_840290b8f74a456f8e27ce5d4ca22a9e.setContent(html_b399b59dc119474c8c36af0e72d0abb9);
+        
+
+        marker_b22721c10c2f49f09faea9951bf369d0.bindPopup(popup_840290b8f74a456f8e27ce5d4ca22a9e)
+        ;
+
+        
+    
+</script>
