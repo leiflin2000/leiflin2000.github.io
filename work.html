@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bc65839dee744cf4886eed7edc22a511 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_bc65839dee744cf4886eed7edc22a511" ></div>
+        
+</body>
+<script>    
+    
+            var map_bc65839dee744cf4886eed7edc22a511 = L.map(
+                "map_bc65839dee744cf4886eed7edc22a511",
+                {
+                    center: [25.03746, 121.564558],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2456167a0db34ce4b2fb5eeae63eb9e2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bc65839dee744cf4886eed7edc22a511);
+        
+    
+            var marker_9124b99fcf154536b858cad74af44f7d = L.marker(
+                [25.019272332363244, 121.54708824891846],
+                {}
+            ).addTo(map_bc65839dee744cf4886eed7edc22a511);
+        
+    
+            var icon_0f6bdfbd27ea4e1bb092ea03b75b7a36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9124b99fcf154536b858cad74af44f7d.setIcon(icon_0f6bdfbd27ea4e1bb092ea03b75b7a36);
+        
+    
+        var popup_624bde4c23024d2cb6214b03b870b016 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ddd249a043e4d99b6494afa5d048696 = $(`<div id="html_8ddd249a043e4d99b6494afa5d048696" style="width: 100.0%; height: 100.0%;">施工</div>`)[0];
+            popup_624bde4c23024d2cb6214b03b870b016.setContent(html_8ddd249a043e4d99b6494afa5d048696);
+        
+
+        marker_9124b99fcf154536b858cad74af44f7d.bindPopup(popup_624bde4c23024d2cb6214b03b870b016)
+        ;
+
+        
+    
+    
+            var marker_6e62e55b5ec24fac8a8f9e2b3a88fb26 = L.marker(
+                [25.03010477228343, 121.51048861216594],
+                {}
+            ).addTo(map_bc65839dee744cf4886eed7edc22a511);
+        
+    
+            var icon_ce053d62bc594cb0be101f8208e880f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6e62e55b5ec24fac8a8f9e2b3a88fb26.setIcon(icon_ce053d62bc594cb0be101f8208e880f4);
+        
+    
+        var popup_4d56c7e431a044848b85ffd6aef501b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_267eaf02fb36493bbc0711fd333bb538 = $(`<div id="html_267eaf02fb36493bbc0711fd333bb538" style="width: 100.0%; height: 100.0%;">施工</div>`)[0];
+            popup_4d56c7e431a044848b85ffd6aef501b5.setContent(html_267eaf02fb36493bbc0711fd333bb538);
+        
+
+        marker_6e62e55b5ec24fac8a8f9e2b3a88fb26.bindPopup(popup_4d56c7e431a044848b85ffd6aef501b5)
+        ;
+
+        
+    
+    
+            var marker_5f6b27d19a744e7c8efa0aa744f24932 = L.marker(
+                [25.03010477228343, 121.51048861216594],
+                {}
+            ).addTo(map_bc65839dee744cf4886eed7edc22a511);
+        
+    
+            var icon_0abc22ee98874057a6abd43540cf952e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5f6b27d19a744e7c8efa0aa744f24932.setIcon(icon_0abc22ee98874057a6abd43540cf952e);
+        
+    
+        var popup_3fba700c1d334a49863f27d9632700f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c35825a71b1143aea998a47709072102 = $(`<div id="html_c35825a71b1143aea998a47709072102" style="width: 100.0%; height: 100.0%;">施工</div>`)[0];
+            popup_3fba700c1d334a49863f27d9632700f4.setContent(html_c35825a71b1143aea998a47709072102);
+        
+
+        marker_5f6b27d19a744e7c8efa0aa744f24932.bindPopup(popup_3fba700c1d334a49863f27d9632700f4)
+        ;
+
+        
+    
+    
+            var marker_cad395dd3ec3472882f2538a7d5c513e = L.marker(
+                [25.032461971167656, 121.51622461014789],
+                {}
+            ).addTo(map_bc65839dee744cf4886eed7edc22a511);
+        
+    
+            var icon_5365da09bfb44a35b02185ce9269e4e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cad395dd3ec3472882f2538a7d5c513e.setIcon(icon_5365da09bfb44a35b02185ce9269e4e4);
+        
+    
+        var popup_cb676cd798194f27ae99fd71934286ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a473f5a633a1468e8a90e02c8efad88f = $(`<div id="html_a473f5a633a1468e8a90e02c8efad88f" style="width: 100.0%; height: 100.0%;">施工</div>`)[0];
+            popup_cb676cd798194f27ae99fd71934286ec.setContent(html_a473f5a633a1468e8a90e02c8efad88f);
+        
+
+        marker_cad395dd3ec3472882f2538a7d5c513e.bindPopup(popup_cb676cd798194f27ae99fd71934286ec)
+        ;
+
+        
+    
+    
+            var marker_afa00bb8e42b46c29de35ce5bb2edf34 = L.marker(
+                [25.03010477228343, 121.51048861216594],
+                {}
+            ).addTo(map_bc65839dee744cf4886eed7edc22a511);
+        
+    
+            var icon_bbf3f43908434d5a8a03b4c74d31d7b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_afa00bb8e42b46c29de35ce5bb2edf34.setIcon(icon_bbf3f43908434d5a8a03b4c74d31d7b8);
+        
+    
+        var popup_9c9c66b8034543bba49496cb72a1dfb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94fb4f104a0a403d80a559042d613c0c = $(`<div id="html_94fb4f104a0a403d80a559042d613c0c" style="width: 100.0%; height: 100.0%;">施工</div>`)[0];
+            popup_9c9c66b8034543bba49496cb72a1dfb6.setContent(html_94fb4f104a0a403d80a559042d613c0c);
+        
+
+        marker_afa00bb8e42b46c29de35ce5bb2edf34.bindPopup(popup_9c9c66b8034543bba49496cb72a1dfb6)
+        ;
+
+        
+    
+</script>
